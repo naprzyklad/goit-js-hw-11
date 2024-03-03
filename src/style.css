@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.search-form {
+    margin-bottom: 20px;
+    
+}
+
+.search-form input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-form input:focus[type="text"] {
+   background-color: #a2cfff;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.search-form button:active {
+    background-color: #0056b3;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-card {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.photo-card .photo-description {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 5px;
+    font-size: 20px;
+}
+
+.photo-card .photo-description p {
+    margin: 0 5px; 
+    font-size: 0.8em;
+}
+
+
+div img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid black;
+   
+}
+
+.info-item {
+    margin: 5px 0;
+}
+
+.load-more {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.load-more:hover {
+    background-color: #218838;
+}
